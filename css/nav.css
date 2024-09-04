@@ -1,0 +1,79 @@
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 0.5rem 1.8rem;
+    border-bottom: 2px solid;
+}
+
+.logo-text {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    text-decoration: none;
+    font-family: "DM Serif Display";
+    color: rgb(51, 51, 51);
+}
+
+.logo-text:hover {
+    text-decoration: underline;
+    color: black;
+    transition: all 0.3 ease;
+}
+
+.links-list {
+    display: flex;
+    list-style-type: none;
+    gap: 0.6rem;
+}
+
+.link-item a {
+    font-weight: 600;
+    font-family: "Archivo";
+    font-size: 19px;
+    color: rgb(51, 51, 51);
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+.link-item a:hover {
+    text-decoration: underline;
+    color: black;
+    transition: all 0.3s ease;
+}
+
+/* .link-item a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: rgb(51, 51, 51);
+    bottom: 4px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: width 0.3s ease;
+}
+
+.link-item a:hover::after {
+    width: 100%;
+} */
+
+li .to-reserve {
+    border: 2px solid black;
+    background-color: antiquewhite;
+}
+
+li .to-reserve:hover {
+    background-color: black;
+    color: white;
+    transition: all 0.2s ease;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+}

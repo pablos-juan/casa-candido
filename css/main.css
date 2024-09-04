@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  font-family: "DM Serif Display", sans-serif;
+}
+
+p, a {
+  font-family: "Archivo", monospace;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 34px;
+}
+
+body {
+  background-color: #ffffff;
+}

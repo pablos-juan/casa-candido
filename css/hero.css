@@ -1,0 +1,25 @@
+.hero-section {
+  position: relative; /* Establece el contexto para posicionamiento absoluto */
+  width: 100%; /* Se ajusta al ancho del contenedor principal */
+  height: 550px; /* Puedes ajustar la altura según sea necesario */
+  background-image: url("../assets/images/hero-hotel-image.jpg"); /* URL de tu imagen de fondo */
+  background-size: cover; /* Hace que la imagen de fondo cubra toda el área del section */
+  background-position: center; /* Centra la imagen de fondo */
+  display: flex; /* Flexbox para centrar contenido */
+  align-items: end;
+  justify-content: center; /* Centra horizontalmente el contenido */
+}
+
+.hero-item {
+  position: relative; /* Relativo al contenedor para asegurar que el texto se superponga */
+  padding: 2rem 1rem; /* Espacio interno alrededor del texto */
+  margin: 2.5rem;
+}
+
+.hero-item h2 {
+  color: white; /* Color del texto */
+  font-family: "Archivo", sans-serif;
+  font-size: px;
+  font-weight: 500;
+  text-align: center;
+}
