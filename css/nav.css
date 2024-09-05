@@ -6,6 +6,10 @@ nav {
   background-color: white;
   padding: 0.5rem 1.8rem;
   border-bottom: 2px solid;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 
 .logo-text {
