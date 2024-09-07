@@ -1,6 +1,6 @@
 {
   "workbench.startupEditor": "newUntitledFile",
-  "editor.fontSize": 15,
+  "editor.fontSize": 16,
   "editor.tabSize": 2,
   "editor.rulers": [80, 120],
   //"extensions.ignoreRecommendations": true,

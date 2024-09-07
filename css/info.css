@@ -1,0 +1,27 @@
+#info {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-top: 2px solid black;
+  background-color: antiquewhite;
+}
+
+.info-text {
+  border: 2px solid red;
+  margin: 1rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.info-text h1 {
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 1.2rem;
+  color: rgb(51, 51, 51);
+}
+
+.info-text p {
+  font-size: 15px;
+  line-height: 24px;
+  
+}
