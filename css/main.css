@@ -12,7 +12,7 @@ h3 {
 
 p,
 a {
-  font-family: "Archivo", monospace;
+  font-family: "Lato", monospace;
   font-weight: 400;
   font-size: 25px;
   line-height: 34px;
@@ -20,5 +20,5 @@ a {
 
 body {
   background-color: #ffffff;
-  margin-top: 63px;
+  margin-top: 65px;
 }

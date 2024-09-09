@@ -1,82 +1,64 @@
 #info {
-  justify-content: center;
+  display: flex;
+  width: 100%;
   align-items: center;
-  background-color: #d9d6eb;
-  margin: 1.5rem;
+  background-color: white;
 }
 
 .info-text {
-  text-align: center;
-  padding: 2.5rem;
-  padding-bottom: 1rem;
-  background-color: #d9d6eb;
-  color: #35274A;
+  text-align: left;
+  padding: 2rem;
+  margin: 3rem;
+  width: 600px;
+  color: #3b38ad;
+  border: 2px solid;
 }
 
-.info-text h1 {
-  font-size: 42px;
-  font-weight: 400;
+.info-text h2 {
+  font-family: "Playfair Display";
+  font-size: 70px;
+  font-weight: 500;
+  line-height: 60px;
   margin-bottom: 1.5rem;
-  color: #35274A;
+  color: #3b38ad;
 }
 
 .info-text p {
+  font-family: "Lato";
   font-size: 18px;
-  line-height: 24px;
+  line-height: 26px;
+  font-weight: 300;
 }
 
-.services {
-  display: flex;
-  justify-content: center;
-  background-color: #d9d6eb;
-  padding: 1.5rem;
-  padding-top: 1rem;
-}
-
-.services svg {
-  min-width: 36px;
-  margin: 0.5rem;
-  margin-right: 1rem;
-}
-
-.srv-item {
-  background-color: #35274A;
-  color: #d9d6eb;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 300px;
-  margin: 1rem;
+.info-text .read-more-button {
+  text-align: center;
+  background-color: #3b38ad;
   padding: 1rem;
-  transition: transform 0.2s ease;
+  transition: all 0.2s ease;
 }
 
-.srv-item:hover {
-  transform: translateY(-10px);
+.read-more-button:hover {
+  transform: translateY(5px);
 }
 
-.srv-item p {
-  font-family: "Archivo";
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  margin: 0.5rem;
+.read-more-button button {
+  display: inline-block;
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-family: "Lato";
+  font-size: 18px;
+  font-weight: 400;
 }
 
 @media (width < 768px) {
   #info {
-    margin: 1rem;
+    justify-content: center;
   }
 
   .info-text {
-    padding: 1.5rem;
-    padding-bottom: 0.5rem;
-  }
-
-  .services {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin: 2rem;
+    padding: 2rem;
   }
 }
 
