@@ -37,11 +37,16 @@
   text-align: center;
   background-color: #3b38ad;
   padding: 1rem;
+  margin-top: 1.5rem;
   transition: all 0.2s ease;
 }
 
 .read-more-button:hover {
   transform: translateY(5px);
+}
+
+.read-more-button:active {
+  transform: translateY(15px);
 }
 
 .read-more-button button {
