@@ -1,13 +1,24 @@
 .hero-section {
-  position: relative; /* Establece el contexto para posicionamiento absoluto */
-  width: 100%; /* Se ajusta al ancho del contenedor principal */
-  height: 550px; /* Puedes ajustar la altura según sea necesario */
-  background-image: url("../assets/images/hero-hotel-image.webp"); /* URL de tu imagen de fondo */
-  background-size: cover; /* Hace que la imagen de fondo cubra toda el área del section */
-  background-position: center; /* Centra la imagen de fondo */
-  display: flex; /* Flexbox para centrar contenido */
+  position: relative;
+  width: 100%;
+  height: 600px;
+  display: flex;
   align-items: end;
-  justify-content: center; /* Centra horizontalmente el contenido */
+  justify-content: center;
+}
+
+.background-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-image: url("../assets/images/hero-hotel-image.webp");
+  background-size: cover;
+  background-position: center; */
+  background-color: #e4e4e4;
+  opacity: 0.9; /* Ajusta la opacidad de la imagen */
+  z-index: -1;
 }
 
 .hero-item {
@@ -16,10 +27,30 @@
   margin: 2.5rem;
 }
 
-.hero-item h2 {
-  color: white; /* Color del texto */
-  font-family: "Lato", sans-serif;
-  font-size: 30px;
-  font-weight: 500;
-  text-align: center;
+.hero-item p {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 40px;
+  color: #3b38ad;
+  opacity: 1;
+}
+
+.hero-item h1 {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 120px;
+  font-weight: 600;
+  line-height: 130px;
+  color: #3b38ad; /* Color del texto */
+  text-align: left;
+  opacity: 1;
+}
+
+@media (width < 768px) {
+  .hero-item p {
+    font-size: 28px;
+  }
+
+  .hero-item h1 {
+    font-size: 80px;
+    line-height: 90px;
+  }
 }
