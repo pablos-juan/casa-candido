@@ -17,7 +17,7 @@ nav {
   font-size: 34px;
   line-height: 45px;
   text-decoration: none;
-  font-family: "Playfair Display";
+  font-family: "Playfair Display", sans-serif;
   color: #3b38ad;
 }
 
@@ -42,7 +42,7 @@ nav {
 }
 
 .link-item a {
-  font-family: "Lato", sans-serif;
+  font-family: "Lato", monospace;
   font-weight: 400;
   font-size: 18px;
   color: #3b38ad;

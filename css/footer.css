@@ -1,6 +1,6 @@
 footer {
   background-color: #040415;
-  font-family: "Lato", sans-serif;
+  font-family: "Lato", monospace;
   color: white;
   display: flex;
   flex-direction: column;

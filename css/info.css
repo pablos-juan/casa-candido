@@ -18,7 +18,7 @@
 }
 
 .info-text h2 {
-  font-family: "Playfair Display";
+  font-family: "Playfair Display", sans-serif;
   font-size: 70px;
   font-weight: 500;
   line-height: 60px;
@@ -27,7 +27,7 @@
 }
 
 .info-text p {
-  font-family: "Lato";
+  font-family: "Lato", monospace;
   font-size: 18px;
   line-height: 26px;
   font-weight: 300;
@@ -37,7 +37,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Lato";
+  font-family: "Lato", monospace;
   font-size: 18px;
   font-weight: 400;
   text-decoration: none;
