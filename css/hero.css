@@ -17,13 +17,13 @@
   background-size: cover;
   background-position: center; */
   background-color: #e4e4e4;
-  opacity: 0.9; /* Ajusta la opacidad de la imagen */
+  opacity: 0.9;
   z-index: -1;
 }
 
 .hero-item {
-  position: relative; /* Relativo al contenedor para asegurar que el texto se superponga */
-  padding: 2rem 1rem; /* Espacio interno alrededor del texto */
+  position: relative;
+  padding: 2rem 1rem;
   margin: 2.5rem;
 }
 
@@ -39,7 +39,7 @@
   font-size: 120px;
   font-weight: 600;
   line-height: 130px;
-  color: #3b38ad; /* Color del texto */
+  color: #3b38ad;
   text-align: left;
   opacity: 1;
 }

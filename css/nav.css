@@ -21,9 +21,11 @@ nav {
   color: #3b38ad;
 }
 
-.logo-text:hover {
-  text-decoration: underline;
-  transition: all 0.3 ease;
+@media (hover: hover) {
+  .logo-text:hover {
+    text-decoration: underline;
+    transition: all 0.3 ease;
+  }
 }
 
 .menu-svg {
@@ -57,22 +59,6 @@ nav {
   transition: all 0.2s ease;
 }
 
-/* .link-item a::after {
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 2px;
-    background-color: rgb(51, 51, 51);
-    bottom: 4px;
-    left: 50%;
-    transform: translateX(-50%);
-    transition: width 0.3s ease;
-}
-
-.link-item a:hover::after {
-    width: 100%;
-} */
-
 li .to-reserve {
   display: flex;
   align-items: center;
@@ -83,12 +69,14 @@ li .to-reserve {
   border: 2px solid #3b38ad;
   color: white;
   opacity: 1;
-  transition: all .2s ease;
+  transition: all 0.2s ease;
 }
 
-li .to-reserve:hover {
-  text-decoration: none;
-  width: 150px;
+@media (hover: hover) {
+  li .to-reserve:hover {
+    text-decoration: none;
+    width: 150px;
+  }
 }
 
 li .to-reserve:active {
