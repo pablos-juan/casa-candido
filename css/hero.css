@@ -28,14 +28,14 @@
 }
 
 .hero-item p {
-  font-family: "Playfair Display", sans-serif;
+  font-family: "Playfair Display", Georgia, serif;
   font-size: 40px;
   color: #3b38ad;
   opacity: 1;
 }
 
 .hero-item h1 {
-  font-family: "Playfair Display", sans-serif;
+  font-family: "Playfair Display", Georgia, serif;
   font-size: 120px;
   font-weight: 600;
   line-height: 130px;
