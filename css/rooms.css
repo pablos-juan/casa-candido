@@ -27,11 +27,11 @@
   font-weight: 500;
   width: auto;
   color: #3b38ad;
-  opacity: .8;
+  opacity: 0.8;
   cursor: pointer;
 }
 
-@media (hover :hover) {
+@media (hover: hover) {
   .room-type ul li:hover {
     opacity: 1;
   }
@@ -55,9 +55,25 @@
   font-weight: 400;
   text-decoration: none;
   padding: 0.5rem;
+  margin-inline: 0.2rem;
+  width: 100%;
   background-color: #3b38ad;
+  border: 2px solid #3b38ad;
   color: white;
   transition: all 0.2s ease;
+}
+
+@media (hover: hover) {
+  .link-button:hover {
+    background-color: #3b38ad;
+    color: white;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .img-div {
@@ -85,6 +101,7 @@
 
   .room-type {
     margin: 1rem;
+    margin-top: 0;
     padding: 2rem;
   }
 }
