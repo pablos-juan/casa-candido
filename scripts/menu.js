@@ -1,6 +1,7 @@
-const hamburger = document.querySelector(".menu-svg");
-const navbarLinks = document.querySelector(".links-list");
+const hamburger = document.querySelector('.menu-svg');
+const navbarLinks = document.querySelector('.links-list');
 
-hamburger.addEventListener("click", () => {
-  navbarLinks.classList.toggle("active");
+hamburger.addEventListener('click', () => {
+  navbarLinks.classList.toggle('active');
+  hamburger.classList.toggle('active');
 });
