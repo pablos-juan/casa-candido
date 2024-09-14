@@ -3,7 +3,7 @@
   justify-content: left;
   align-items: center;
   width: 100%;
-  padding: 4rem 0;
+  padding: 3rem 0;
   background-color: #e4e4e4;
 }
 
@@ -55,14 +55,13 @@
   font-weight: 400;
   text-decoration: none;
   padding: 0.5rem;
-  margin-top: 1.5rem;
   background-color: #3b38ad;
   color: white;
   transition: all 0.2s ease;
 }
 
 .img-div {
-  width: 600px;
+  width: 520px;
   height: auto;
   margin: 1rem;
 }
