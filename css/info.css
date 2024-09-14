@@ -65,7 +65,7 @@
   margin: 2rem 0;
 }
 
-.images-container img {
+.images-container .hotel-img {
   width: 0;
   flex-grow: 1;
   object-fit: cover;
@@ -106,8 +106,8 @@
     width: 200px;
   }
 
-  .images-container img:first-child,
-  img:last-child {
+  .images-container .hotel-img:first-child,
+  .hotel-img:last-child {
     display: none;
   }
 }
