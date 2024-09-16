@@ -47,7 +47,7 @@ nav {
   gap: 0.2rem;
 }
 
-.link-item a {
+nav a {
   font-family: "Lato", Arial, sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -57,36 +57,17 @@ nav {
   padding: 0.5rem;
 }
 
-.link-item a:hover {
+nav a:hover { /*minimizar la especificidad para que no afecte al botón de reserva -> resolver esto luego*/
   text-decoration: underline;
   opacity: 1;
   transition: all 0.2s ease;
 }
 
-li .to-reserve {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+nav .to-reserve {
   width: 110px;
   height: 40px;
   font-weight: 700;
-  background-color: #e4e4e4;
-  color: #3b38ad;
-  border: 2px solid #3b38ad;
   opacity: 1;
-  transition: all 0.2s ease;
-}
-
-@media (hover: hover) {
-  li .to-reserve:hover {
-    background-color: #3b38ad;
-    color: white;
-    text-decoration: none;
-  }
-}
-
-li .to-reserve:active {
-  transform: translateY(8px);
 }
 
 @media (max-width: 768px) {
@@ -133,10 +114,9 @@ li .to-reserve:active {
     margin: 0;
   }
 
-  li .to-reserve {
+  nav .to-reserve {
     margin-top: 1rem;
     width: 200px;
-    align-self: center;
   }
 
   .links-list li a {
