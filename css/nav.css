@@ -129,11 +129,15 @@ li .to-reserve:active {
   }
 
   .links-list li {
-    margin: 0.3rem 0;
+    margin: 0;
+  }
+
+  li .to-reserve {
+    margin-top: 1rem;
+    width: 200px;
   }
 
   .links-list li a {
     font-size: 22px;
-    font-weight: 500;
   }
 }
