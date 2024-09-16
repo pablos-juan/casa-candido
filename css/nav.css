@@ -113,15 +113,16 @@ li .to-reserve:active {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: end;
     position: fixed;
     top: 0;
     right: -280px;
     width: 280px;
     height: 100vh;
     background-color: white;
-    padding: 1rem 2rem;
+    padding: 3rem 2rem;
     border-left: 2px solid #3b38ad;
-    transition: right 0.3s ease-in-out;
+    transition: all 0.2s ease;
   }
 
   .links-list.active {
@@ -135,6 +136,7 @@ li .to-reserve:active {
   li .to-reserve {
     margin-top: 1rem;
     width: 200px;
+    align-self: center;
   }
 
   .links-list li a {
