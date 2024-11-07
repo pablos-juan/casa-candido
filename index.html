@@ -15,7 +15,8 @@
     <link rel="stylesheet" href="css/info.css" />
     <link rel="stylesheet" href="css/rooms.css" />
 
-    <link rel="stylesheet" href="/css/components/button.css">
+    <link rel="stylesheet" href="/css/components/button.css" />
+    <link rel="stylesheet" href="css/components/card.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -40,7 +41,7 @@
           <li class="link-item"><a href="#habitaciones">Habitaciones</a></li>
           <li class="link-item"><a href="#contacto">Contacto</a></li>
           <li class="link-item">
-            <a class="button to-reserve" href="#">RESERVA</a>
+            <a class="button to-reserve" href="https://wa.me/573017907397">RESERVA</a>
           </li>
         </ul>
 
@@ -145,32 +146,65 @@
       </section>
 
       <section id="rooms">
-        <div class="room-type">
-          <ul class="room-list">
-            <li data-room="estandar">Estándar</li>
-            <li data-room="doble">Doble</li>
-            <li data-room="premium">Premium</li>
-          </ul>
+        <article class="card">
+          <div class="image">
+            <img
+              src="assets/images/room-1.webp"
+              alt=""
+            />
+          </div>
 
-          <article>
-            <p id="room-info">
-              Selecciona una habitación para leer sus detalles!
-            </p>
-          </article>
+          <h3>Habitación básica</h3>
+          <p>
+            Cama doble, aire acondicionado y baño privado. Perfecta para
+            parejas.
+          </p>
 
           <div class="buttons">
-            <a href="" class="button">RESERVA</a>
-            <a href="" class="button-secondary">LEER MAS</a>
+            <a href="https://wa.me/573017907397" class="button">Reserva</a>
+            <a href="" class="button-secondary">+ info</a>
           </div>
-        </div>
+        </article>
 
-        <div class="img-div">
-          <img
-            src="assets/images/prom-7.webp"
-            alt="Imagen promocional"
-            id="room-image"
-          />
-        </div>
+        <article class="card">
+          <div class="image">
+            <img
+              src="assets/images/room-5.webp"
+              alt=""
+            />
+          </div>
+
+          <h3>Habitación familiar</h3>
+          <p>
+            Cama doble, camarote, aire acondicionado y baño privado. Ideal para
+            un espacio en familia.
+          </p>
+
+          <div class="buttons">
+            <a href="https://wa.me/573017907397" class="button">Reserva</a>
+            <a href="" class="button-secondary">+ info</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="image">
+            <img
+              src="assets/images/room-6.webp"
+              alt=""
+            />
+          </div>
+
+          <h3>Habitación grupal</h3>
+          <p>
+            Un camarote, dos o tres con aire acondicionado y baño privado ideal
+            para grupos de amigos o familia.
+          </p>
+
+          <div class="buttons">
+            <a href="https://wa.me/573017907397" class="button">Reserva</a>
+            <a href="" class="button-secondary">+ info</a>
+          </div>
+        </article>
       </section>
     </main>
     <script src="scripts/menu.js"></script>
